@@ -1,24 +1,10 @@
 body {
   margin: 0;
-  font-family: monospace;
-}
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 783%;
-  background-color: #1834b6;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  z-index: 0;
 }
 
 section {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +46,6 @@ section:nth-of-type(6) {
 
 section:nth-of-type(7) {
   background-image: url('./logos/git.jpg');
-  /*background-color: black;*/
 }
 
 section:nth-of-type(3) > p {

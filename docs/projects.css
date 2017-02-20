@@ -1,0 +1,17 @@
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 783%;
+  background-color: #1834b6;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: 0;
+}
+
+.card .card-image .card-title {
+  font-weight: bold;
+  /*text-shadow: 1px 1px 1px #9e9e9e;*/
+  /*background-color: rgba(256, 256, 256, 0.5);*/
+}
