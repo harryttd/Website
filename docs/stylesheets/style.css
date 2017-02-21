@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.brand-logo {
+  margin-left: 10px;
+}
+
 section {
   width: 100vw;
   height: 100vh;
