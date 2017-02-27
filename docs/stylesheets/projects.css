@@ -2,6 +2,12 @@
   margin-left: 15px;
 }
 
+.container {
+  padding: 1em;
+  max-width: 70em;
+  width: 100%;
+}
+
 #particles-js {
   position: absolute;
   width: 100%;
