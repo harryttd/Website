@@ -16,6 +16,15 @@
     <script src="app.js"></script>
   </head>
   <body>
+    <script>
+      $(document).ready(function() {
+        $(window).resize(function() {
+          if($(this).width() > 993 ) {
+            $('.dropdown-button').dropdown('close');
+          }
+        });
+      })
+    </script>
     <nav>
       <div class="nav-wrapper orange">
         <a href="" class="brand-logo center black-text"><strong>Projects</strong></a>
@@ -26,7 +35,7 @@
             <li><a href="https://github.com/harryttd" class="contact-icon" target="_blank"><i class="fa fa-github"></i></a></li>
             <li><a href="http://stackoverflow.com/story/aryeh-harris" class="contact-icon" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
           </ul>
-          <ul id="dropdown1" class="dropdown-content hide-on-large-only">
+          <ul id="dropdown1" class="dropdown-content">
             <li><a href="https://linkedin.com/in/aryeh-harris" target="_blank" class="dropdown-icon"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://github.com/harryttd" target="_blank" class="dropdown-icon"><i class="fa fa-github"></i></a></li>
             <li><a href="http://stackoverflow.com/story/aryeh-harris" target="_blank" class="dropdown-icon"><i class="fa fa-stack-overflow"></i></a></li>
