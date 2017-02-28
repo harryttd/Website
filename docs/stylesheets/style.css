@@ -23,6 +23,10 @@ body {
   font-size: 1.5em;
 }
 
+.content {
+
+}
+
 section {
   width: 100vw;
   height: 100vh;
@@ -32,7 +36,8 @@ section {
   text-align: center;
 
   background-position: center;
-  background-size: cover;
+  /*background-size: cover;*/
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
