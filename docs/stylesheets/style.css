@@ -6,6 +6,23 @@ body {
   margin-left: 15px;
 }
 
+.nav-wrapper .social {
+  margin-left: 5px;
+  margin-bottom: -5px;
+  float: left;
+  text-align: left;
+}
+
+.nav-wrapper .contact-icon {
+  font-size: 2em;
+  margin-left: 0.5em;
+  color: black;
+}
+
+.nav-wrapper .dropdown-icon {
+  font-size: 1.5em;
+}
+
 section {
   width: 100vw;
   height: 100vh;
