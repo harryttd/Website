@@ -2,6 +2,18 @@
   margin-left: 15px;
 }
 
+.nav-wrapper .social {
+  margin-left: 5px;
+  float: left;
+  text-align: left;
+}
+
+.nav-wrapper .contact-icon {
+  font-size: 2em;
+  margin-left: 0.5em;
+  color: black;
+}
+
 .container {
   margin-top: 15px;
   padding: 1em;
