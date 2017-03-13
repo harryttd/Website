@@ -1,9 +1,9 @@
-body {
-  margin: 0;
-}
-
 .brand-logo {
   margin-left: 15px;
+}
+
+nav {
+  background-color: #f0da50;
 }
 
 .nav-wrapper .social {
@@ -16,7 +16,7 @@ body {
 .nav-wrapper .contact-icon {
   font-size: 2em;
   margin-left: 0.5em;
-  color: black;
+  color: #263238;
 }
 
 .nav-wrapper .dropdown-icon {
@@ -26,6 +26,14 @@ body {
 .content {
 
 }
+
+@media all and (max-width:900px), (max-device-width:900px) {
+  section:nth-of-type(1) {
+    background-size: 100vw 100vh;
+    background-image: url('../logos/java-script.jpg');
+  }
+}
+
 
 section {
   width: 100vw;
