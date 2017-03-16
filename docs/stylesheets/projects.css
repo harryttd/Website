@@ -1,5 +1,17 @@
-.brand-logo {
-  margin-left: 15px;
+@media screen and (max-width: 599px) {
+  span.brand-logo {
+    font-size: 4vw;
+  }
+
+  .more-tabs {
+    font-size: 3.2vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .more-tabs {
+    font-size: 1.2rem;
+  }
 }
 
 nav .nav-wrapper {
