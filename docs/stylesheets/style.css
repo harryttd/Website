@@ -14,6 +14,17 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  section {
+    background-attachment: scroll;
+  }
+}
+
+@media screen and (min-width: 415px) {
+  section {
+    background-attachment: fixed;
+  }
+}
 
 nav {
   background-color: #f0da50;
@@ -51,7 +62,7 @@ section {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
 
 section:nth-of-type(1) {
