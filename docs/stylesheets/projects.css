@@ -14,6 +14,10 @@
   }
 }
 
+a {
+  color: #13c90d !important;
+}
+
 nav .nav-wrapper {
   position: relative;
   height: 0;
